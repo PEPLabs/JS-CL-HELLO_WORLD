@@ -47,8 +47,7 @@ public class SeleniumTest {
         webDriver.get(path);
         WebElement outputElement = webDriver.findElement(By.id("output"));
         String actualMessage = outputElement.getText();
-        webDriver.quit();
-
+        
         String expectedMessage = "Hello, World!";
         Assertions.assertEquals(expectedMessage, actualMessage, "Message mismatch");
 
