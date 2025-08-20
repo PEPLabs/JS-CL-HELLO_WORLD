@@ -1,5 +1,3 @@
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 import java.io.File;
 
 import org.junit.jupiter.api.Assertions;
@@ -57,3 +55,4 @@ public class SeleniumTest {
 
 
   
+
